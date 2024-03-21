@@ -9,6 +9,38 @@
   },
   {
     "url": "https://www.linkedin.com/in/danulo-yanishevskiy-27020a2b1/",
+    "small": "assets/ilona-ratushniak1x.png",
+    "large": "assets/ilona-ratushniak@2x.png",
+    "userNameEn": "Ilona Ratushniak",
+    "userNameUa": "Ілона Ратушняк",
+    "developer": "UI/UX Designer"
+  },
+  {
+    "url": "https://www.linkedin.com/in/danulo-yanishevskiy-27020a2b1/",
+    "small": "/assets/ilona-ratushniak1x.png",
+    "large": "/assets/ilona-ratushniak@2x.png",
+    "userNameEn": "Ilona Ratushniak",
+    "userNameUa": "Ілона Ратушняк",
+    "developer": "UI/UX Designer"
+  },
+  {
+    "url": "https://www.linkedin.com/in/danulo-yanishevskiy-27020a2b1/",
+    "small": "./assets/ilona-ratushniak1x.png",
+    "large": "./assets/ilona-ratushniak@2x.png",
+    "userNameEn": "Ilona Ratushniak",
+    "userNameUa": "Ілона Ратушняк",
+    "developer": "UI/UX Designer"
+  },
+  {
+    "url": "https://www.linkedin.com/in/danulo-yanishevskiy-27020a2b1/",
+    "small": "../assets/ilona-ratushniak1x.png",
+    "large": "../assets/ilona-ratushniak@2x.png",
+    "userNameEn": "Ilona Ratushniak",
+    "userNameUa": "Ілона Ратушняк",
+    "developer": "UI/UX Designer"
+  },
+  {
+    "url": "https://www.linkedin.com/in/danulo-yanishevskiy-27020a2b1/",
     "small": "/assets/team/ilona-ratushniak1x.png",
     "large": "/assets/team/ilona-ratushniak@2x.png",
     "userNameEn": "Ilona Ratushniak",
