@@ -18,7 +18,7 @@ const swiperParams = {
   slidesOffsetAfter: 25,
   slidesOffsetBefore: 10,
 };
-
+import icon from '../img/symbol.svg';
 new Swiper('.swiper', swiperParams);
 const swiperWrapper = document.querySelector('.swiper-wrapper');
 const developerSection = document.querySelector('.developer-section');
@@ -44,7 +44,7 @@ const createMrkpSwiper = () => {
       <a href="${url}"  target="_blank"
         >
         <svg class="linkedin" width="16" height="16">
-          <use href="/img/symbol.svg#icon-linkedin"></use>
+          <use href=${icon}#icon-linkedin></use>
         </svg>
         </a>
       </div>
@@ -54,20 +54,20 @@ const createMrkpSwiper = () => {
   <source
     media="(min-width: 768px )"
     srcset="
-      ${small}    1x,
-      ${large} 2x
+      /img/team/${small}    1x,
+      /img/team/${large} 2x
     "
   />
   <source
     media="(max-width: 767.98px)"
     srcset="
-      ${small}    1x,
-      ${large} 2x
+      /img/team/${small}    1x,
+      /img/team/${large} 2x
     "
   />
   <img
     class="dev-photo"
-    src="${small}"
+    src="/img/team/${small}"
     alt="${userNameEn}"
   />
 </picture>

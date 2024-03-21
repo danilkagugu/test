@@ -1,16 +1,16 @@
 [
   {
     "url": "https://www.linkedin.com/in/danulo-yanishevskiy-27020a2b1/",
-    "small": "/img/team/ilona-ratushniak1x.png",
-    "large": "/img/team/ilona-ratushniak@2x.png",
+    "small": "ilona-ratushniak1x.png",
+    "large": "ilona-ratushniak@2x.png",
     "userNameEn": "Ilona Ratushniak",
     "userNameUa": "Ілона Ратушняк",
     "developer": "UI/UX Designer"
   },
   {
     "url": "https://www.linkedin.com/in/danulo-yanishevskiy-27020a2b1/",
-    "small": "img/team/maksym-nahornyi1x.png",
-    "large": "img/team/maksym-nahornyi@2x.png",
+    "small": "./img/team/maksym-nahornyi1x.png",
+    "large": "./img/team/maksym-nahornyi@2x.png",
     "userNameEn": "Maksym Nahornyi",
     "userNameUa": "Максим Нагорний",
     "developer": "PM"
