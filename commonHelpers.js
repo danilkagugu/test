@@ -16,20 +16,20 @@ import{S as l,N as m}from"./assets/vendor-094e1e92.js";(function(){const n=docum
   <source
     media="(min-width: 768px )"
     srcset="
-      ../img/team/${n}    1x,
-      ../img/team/${r} 2x
+      ./img/team/${n}    1x,
+      ./img/team/${r} 2x
     "
   />
   <source
     media="(max-width: 767.98px)"
     srcset="
-      ../img/team/${n}    1x,
-      ../img/team/${r} 2x
+      ./img/team/${n}    1x,
+      ./img/team/${r} 2x
     "
   />
   <img
     class="dev-photo"
-    src="../img/team/${n}"
+    src="./img/team/${n}"
     alt="${i}"
   />
 </picture>
