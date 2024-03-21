@@ -44,7 +44,7 @@ const createMrkpSwiper = () => {
       <a href="${url}"  target="_blank"
         >
         <svg class="linkedin" width="16" height="16">
-          <use href="./img/symbol.svg#icon-linkedin"></use>
+          <use href="/img/symbol.svg#icon-linkedin"></use>
         </svg>
         </a>
       </div>
