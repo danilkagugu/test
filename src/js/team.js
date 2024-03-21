@@ -51,24 +51,24 @@ const createMrkpSwiper = () => {
       </div>
       <a href="${url}" target="_blank"
         >
-<picture>
+<picture class="qwe">
   <source
     media="(min-width: 768px )"
     srcset="
-      \img/team/${small}    1x,
-      \img/team/${large} 2x
+      ${small}    1x,
+      ${large} 2x
     "
   />
   <source
     media="(max-width: 767.98px)"
     srcset="
-      \img/team/${small}    1x,
-      \img/team/${large} 2x
+      ${small}    1x,
+      ${large} 2x
     "
   />
   <img
     class="dev-photo"
-    src="\img/team/${small}"
+    src="${small}"
     alt="${userNameEn}"
   />
 </picture>
