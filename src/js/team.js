@@ -41,7 +41,7 @@ function toggleModal() {
 closeModal.addEventListener('click', toggleModal);
 openModal.addEventListener('click', toggleModal);
 
-const createMrkpSwiper = team => {
+const createMrkpSwiper = () => {
   const markup = team
     .map(({ small, large, userNameEn, developer, url, userNameUa }) => {
       return `<div class="swiper-slide">
@@ -85,4 +85,4 @@ const createMrkpSwiper = team => {
   return markup;
 };
 
-swiperWrapper.innerHTML = createMrkpSwiper(team);
+swiperWrapper.innerHTML = createMrkpSwiper();
