@@ -20,7 +20,14 @@ const swiperParams = {
 };
 import icon from '../img/symbol.svg';
 
-new Swiper('.swiper', swiperParams);
+const swiperTeamGallery = photoId => {
+  const elId = photoId;
+  const swiper = new Swiper(`[data-id="${elId}"]`, swiperParams);
+  return swiper;
+};
+
+swiperTeamGallery('photo-team');
+
 const swiperWrapper = document.querySelector('.swiper-wrapper');
 const developerSection = document.querySelector('.developer-section');
 const closeModal = document.querySelector('.icon-close-section-team');
@@ -34,7 +41,7 @@ function toggleModal() {
 closeModal.addEventListener('click', toggleModal);
 openModal.addEventListener('click', toggleModal);
 
-const createMrkpSwiper = () => {
+const createMrkpSwiper = team => {
   const markup = team
     .map(({ small, large, userNameEn, developer, url, userNameUa }) => {
       return `<div class="swiper-slide">
@@ -84,4 +91,4 @@ const createMrkpSwiper = () => {
   return markup;
 };
 
-swiperWrapper.innerHTML = createMrkpSwiper();
+swiperWrapper.innerHTML = createMrkpSwiper(team);
