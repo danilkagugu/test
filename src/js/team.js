@@ -60,18 +60,12 @@ const createMrkpSwiper = team => {
         >
 <picture class="qwe">
   <source
-    media="(min-width: 768px )"
-    srcset="
-      ${small}    1x,
-      ${large} 2x
-    "
+    media="(min-width: 768px)"
+    srcset="${small} 1x, ${large} 2x"
   />
   <source
     media="(max-width: 767.98px)"
-    srcset="
-      ${small}    1x,
-      ${large} 2x
-    "
+    srcset="${small} 1x, ${large} 2x"
   />
   <img
     class="dev-photo"
