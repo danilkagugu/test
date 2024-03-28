@@ -19,11 +19,11 @@ import{S as l,N as u}from"./assets/vendor-094e1e92.js";(function(){const a=docum
   />
   <source
     media="(max-width: 767.98px)"
-    srcset="${a} 1x, ${r} 2x"
+    srcset="team/${a} 1x, team/${r} 2x"
   />
   <img
     class="dev-photo"
-    src="${a}"
+    src="team/${a}"
     alt="${s}"
   />
 </picture>
