@@ -65,11 +65,11 @@ const createMrkpSwiper = () => {
   />
   <source
     media="(max-width: 767.98px)"
-    srcset="${small} 1x, ${large} 2x"
+    srcset="team/${small} 1x, team/${large} 2x"
   />
   <img
     class="dev-photo"
-    src="${small}"
+    src="team/${small}"
     alt="${userNameEn}"
   />
 </picture>
